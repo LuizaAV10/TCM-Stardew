@@ -1,0 +1,180 @@
+body {
+    background-image: url("fundo.png");
+    background-attachment: fixed;
+
+}
+
+header {
+    display: flex;
+}
+
+header img {
+    padding-left: 200px;
+    height: 300px;
+    width: 70%;
+}
+
+header div.junimo img{
+margin-top: 60px;
+margin-right: 150px;
+padding-left: 100px;
+    height: 150px;
+    width: 30%;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+div.menu{
+    display: none;
+    position: absolute;
+    width: 200px;
+    padding-left: 70px;
+}
+
+div.junimo:hover div.menu {
+    display: block;
+
+}
+
+div.menu a{
+    width: 80%;
+    background-color: #f4b266;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+        padding: 5px 10px;
+    color: rgb(73, 29, 0);
+    text-decoration: none;
+    font-family: "Jersey 10",sans-serif;
+    font-size: 20px;
+border-style: solid;
+border-color: #cb6506;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main h1{
+    position: absolute;
+    font-size: 3vw;
+    padding-top: 20px ;
+    padding-left: 650px;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 990px;
+}
+
+main p{
+    position: absolute;
+    font-size: 2vw;
+    padding-top: 80px ;
+    padding-left: 120px;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 1318px;
+}
+
+main img {
+    flex-direction: row;
+padding-left: 40px;
+height: 280px;
+width: 1480px;
+}
+
+
+
+
+
+div.Pers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    gap: 15px;
+    padding-left: 390px;
+    background-color: rgba(8, 16, 124, 0.3);
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    min-width: 160px;
+    position: relative;
+}
+
+div.Pers img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+div.Pers img {
+    transition: all 0.3s ease;
+}
+
+div.Pers:hover img {
+    transform: scale(1.05);
+    border-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+div.Pers img:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    flex: 1;
+    max-width: none;
+    min-width: 100%;
+    width: 100%;
+    z-index: 20;
+    padding: 30px;
+    margin: 0;
+}
+
+div.Pers:hover div.Pers img:not(:hover) {
+    opacity: 0;
+    transform: scale(0);
+    width: 0;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    flex: 0;
+}
+
+
+
+
+footer {
+    padding-top: 50px;
+}
+
+footer img{
+ padding-left: 200px;
+    height:300px;
+    width: 70%;
+}
+
+footer p{
+        position: absolute;
+    font-size: 2.5vw;
+    padding-top: 20px ;
+    padding-left: 300px;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 1190px;
+
+}
+
+footer a{
+    text-decoration: none;
+}
+

@@ -1,0 +1,180 @@
+body {
+    background-image: url("img/fundo.png");
+    background-attachment: fixed;
+cursor: url('Normal Selects.cur'), auto;
+}
+
+header {
+    display: flex;
+}
+
+header img {
+    padding-left: 10vw;
+    height: 23vw;
+    width: 67%;
+}
+
+
+header div.junimo img{
+margin-top: 5vw;
+margin-right: 17vw;
+padding-left: 5vw;
+    height: 11vw;
+    width: 30%;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    cursor: url("Text Select.cur"), pointer;
+}
+
+div.menu{
+    display: none;
+    position: absolute;
+    width: 17vw;
+    padding-left: 1vw;
+        z-index: 999;
+
+}
+
+div.junimo:hover div.menu {
+    display: block;
+
+}
+
+div.menu a{
+    width: 80%;
+    background-color: #f4b266;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+        padding: 0.5vw 1.3vw;
+    color: rgb(73, 29, 0);
+    text-decoration: none;
+    font-family: "Jersey 10",sans-serif;
+    font-size: 1.5vw;
+border-style: solid;
+border-color: #cb6506;
+cursor: url("Text Select.cur"), pointer;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    position: absolute;
+    font-size: 3vw;
+    padding-top: 2vw;
+    padding-left: 40vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 50vw;
+}
+
+main p {
+    position: absolute;
+    font-size: 2vw;
+    padding-top: 7vw;
+    padding-left: 8vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 83vw;
+}
+
+main img {
+    flex-direction: row;
+    padding-left: 2vw;
+    height: 28vw;
+    width: 95vw;
+}
+
+
+
+
+img.imgerick {
+    margin: 1.5vw 30vw;
+    height: 35vw;
+    width: 40%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+div.texto2 {
+    display: flex;
+    flex-direction: row;
+margin: auto;
+}
+
+div.texto2 img {
+padding-left: 18vw;
+    height: 7vw;
+    width: 68vw;
+}
+
+div.texto2 p {
+    position: absolute;
+    font-size: 2vw;
+    padding-left: 25vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 60vw;
+}
+
+
+
+
+div.jogo {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+}
+
+div.jogo img {
+    flex-direction: row;
+    padding-left: 2vw;
+    height: 30vw;
+    width: 100vw;
+}
+
+div.jogo p {
+    position: absolute;
+    font-size: 2vw;
+    padding-top: 1vw;
+    padding-left: 8vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 84vw;
+}
+
+
+
+footer {
+    padding-top: 4vw;
+}
+
+footer img {
+    padding-left: 17vw;
+    height: 20vw;
+    width: 70%;
+}
+
+footer p {
+    position: absolute;
+    font-size: 2.5vw;
+    padding-top: 2vw;
+    padding-left: 23vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 60vw;
+
+}
+
+footer a {
+    text-decoration: none;
+    cursor: url("Text Select.cur"), pointer;
+}

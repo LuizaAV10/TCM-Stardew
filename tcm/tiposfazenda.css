@@ -1,0 +1,240 @@
+body {
+    background-image: url("img/fundo.png");
+    background-attachment: fixed;
+cursor: url('Normal Selects.cur'), auto;
+}
+
+header {
+    display: flex;
+}
+
+header img {
+    padding-left: 10vw;
+    height: 23vw;
+    width: 67%;
+}
+
+
+header div.junimo img {
+    margin-top: 5vw;
+    margin-right: 17vw;
+    padding-left: 5vw;
+    height: 11vw;
+    width: 30%;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+cursor: url("Text Select.cur"), pointer;
+}
+
+div.menu {
+    display: none;
+    position: absolute;
+    width: 17vw;
+    padding-left: 1vw;
+    z-index: 999;
+}
+
+div.junimo:hover div.menu {
+    display: block;
+
+}
+
+div.menu a {
+    width: 80%;
+    background-color: #f4b266;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5vw 1.3vw;
+    color: rgb(73, 29, 0);
+    text-decoration: none;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 1.5vw;
+    border-style: solid;
+    border-color: #cb6506;
+    cursor: url("Text Select.cur"), pointer;
+}
+
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    position: absolute;
+    font-size: 3vw;
+    padding-top: 2vw;
+    padding-left: 40vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 50vw;
+}
+
+main p {
+    position: absolute;
+    font-size: 2vw;
+    padding-top: 7vw;
+    padding-left: 8vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 85vw;
+}
+
+main img {
+    flex-direction: row;
+    padding-left: 2vw;
+    height: 36vw;
+    width: 95vw;
+}
+
+img.fznd {
+    margin: auto;
+    position: absolute;
+    padding-top: 23vw;
+    padding-left: 15vw;
+    height: 8vw;
+    width: 70vw;
+
+}
+
+
+
+div.tiposD {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+
+}
+
+div.tiposD h1 {
+    position: absolute;
+    font-size: 3vw;
+    padding-top: 2.5vw;
+    padding-left: 7vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 50vw;
+}
+
+div.tiposD p {
+    position: absolute;
+    font-size: 2vw;
+    padding-top: 7vw;
+    padding-left: 7vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 50vw;
+}
+
+div.tiposD img.fzd {
+    margin-top: 4vw;
+    height: 26vw;
+    width: 30vw;
+padding: 1vw;
+background-color: rgba(255, 255, 255, 0.39);
+border-radius: 1vw;
+}
+
+div.tiposD img.txt {
+    margin-top: 1vw;
+    padding-left: 2vw;
+    height: 34vw;
+    width: 60vw;
+}
+
+
+
+
+
+
+
+
+div.tiposE {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+
+}
+
+div.tiposE h1 {
+    position: absolute;
+    font-size: 3vw;
+    padding-top: 2.5vw;
+    padding-left: 42vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 50vw;
+}
+
+div.tiposE p {
+    position: absolute;
+    font-size: 2vw;
+    padding-top: 7vw;
+    padding-left: 42vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 50vw;
+}
+
+div.tiposE img.fzd {
+    margin-top: 4vw;
+    height: 26vw;
+    width: 30vw;
+padding: 1vw;
+margin-left: 3vw;
+background-color: rgba(255, 255, 255, 0.39);
+border-radius: 1vw;
+}
+
+div.tiposE img.txt {
+    margin-top: 1vw;
+    padding-left: 2vw;
+    height: 34vw;
+    width: 59vw;
+}
+
+.tiposE img.txtqc {
+        margin-top: 1vw;
+    padding-left: 2vw;
+    height: 38vw;
+    width: 60vw;
+}
+ 
+
+
+
+
+
+footer {
+    padding-top: 4vw;
+}
+
+footer img {
+    padding-left: 17vw;
+    height: 20vw;
+    width: 70%;
+}
+
+footer p {
+    position: absolute;
+    font-size: 2.5vw;
+    padding-top: 2vw;
+    padding-left: 23vw;
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(73, 29, 0);
+    width: 60vw;
+
+}
+
+footer a {
+    text-decoration: none;
+    cursor: url("Text Select.cur"), pointer;
+}
